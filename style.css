@@ -87,8 +87,18 @@ a:hover {
     bottom:0;
     padding-right: 30px;
     z-index: 99;
+        width: 100vw;
+     text-overflow: clip;
+    overflow: hidden;
 }
-.marquee3k__copy{padding-right:1rem}
+
+.marquee3k__copy{
+    padding-right:1rem;
+box-sizing: border-box;}
+
+#marktext {
+    text-overflow: clip;
+}
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
