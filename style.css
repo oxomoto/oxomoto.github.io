@@ -13,6 +13,50 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+
+}
+
+.menu li {
+
+
+    padding-right:15px;
+    margin:0;
+}
+
+.about {
+    max-width: 600px}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list p{
+    margin-top: 2.5rem;
+    text-decoration: underline;
+    font-size: 0.2em;
+}
+
+
+a {
+    text-decoration: none;
+
 }
 
 
@@ -24,18 +68,22 @@ h1 {
 }
 
 a {
-     color:black;
+    color:black;
     text-decoration: none;
 }
 a:hover {
     color:blue;
     text-decoration: none;
 }
-
+.smll {
+    font-size: 0.2em;
+    margin-bottom: 0rem;
+}
 footer p{
 
     font-size: 0.2em;
     margin-bottom: 0rem;
+    color:#d1d1d1;
 }
 
 
@@ -45,41 +93,68 @@ img {
     width: auto;
     height: auto;
 }
+
+#avi {
+    max-width: auto;
+    max-height: 15px;
+    width: auto;
+    height: auto;
+}
+
 .row {  
     display: flex;
-    
-    }
 
-#fun {
-    margin-top: -20px;
-    margin-bottom: 40px;
-    max-height: 300px;
-   
-    
 }
+
 .content{
-    padding-top: 40px;
     flex-grow: 1;
 }
-.about {width: 40%}
+
 
 header, .content, footer {
     flex-shrink: 0;
 }
 
+header {
+    margin-bottom: 2.0rem;
+}
 
-@media only screen and (max-width: 800px) {
-  .about {width: 100%;}
-    img,#fun {
-       
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+        cursor:pointer;
+
+}
+
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.griddi img {
+       max-width: auto;
+    max-height: 250px;
+    
+    width: auto;
+     height: auto;
+    padding: 0.2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {width: 100%;}
+    img,#fun,.griddi img {
+
         display: block;
         width: 100%;
         height: auto;
         max-height: 100%;
-    
-    }
- 
 
-    
+    }
+
 }
 
