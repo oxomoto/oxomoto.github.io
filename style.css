@@ -19,6 +19,8 @@ body {
 .menu {
     width: 100%;
     display: flex;
+    
+   
 
 
 }
@@ -28,17 +30,14 @@ ul {
     display: flex;
     list-style-type: none;
 
-
 }
 
 
-}
 
-.menu li {
+#menu li {
 
-
-    padding-right:15px;
-    margin:0;
+    margin-right:0.5em;
+    
 }
 
 .about {
@@ -82,10 +81,26 @@ a:hover {
 footer p{
 
     font-size: 0.2em;
+    padding-top: 2rem;
     margin-bottom: 0rem;
     color:#d1d1d1;
 }
 
+.butt {
+    font-size: 0.2em;
+  color: #606c76;
+ margin-bottom: 0rem;
+
+            
+
+}
+
+figcaption {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 img {
     max-width: auto;
@@ -101,10 +116,11 @@ img {
     height: auto;
 }
 
-.row {  
-    display: flex;
+.row {  display: flex;
+    align-items: center;
+    justify-content: center;}
 
-}
+
 
 .content{
     flex-grow: 1;
@@ -116,7 +132,7 @@ header, .content, footer {
 }
 
 header {
-    margin-bottom: 2.0rem;
+    margin-bottom: 4.0rem;
 }
 
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
@@ -124,25 +140,24 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
     border-style: solid;
     border-width: 1px;
     padding: 1px 7px 2px;
-        cursor:pointer;
+    cursor:pointer;
+    
 
 }
-
-
 .work {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   padding:1em 1em 1em 1em;
 
 }
 
-.griddi img {
-       max-width: auto;
-    max-height: 250px;
+
+.row img {
+     max-width: auto;
+    max-height: 450px;
     
     width: auto;
      height: auto;
     padding: 0.2em;
+
 }
 
 @media only screen and (max-width: 600px) {
