@@ -11,7 +11,6 @@
 
         <link rel="icon" href="favicon.png" sizes="48x48" type="image/png">
         <link href="https://fonts.googleapis.com/css?family=Cardo|Work+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="milligram.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="glide.core.min.css">
         <script src="glide.min.js"></script>
@@ -35,6 +34,32 @@
 
         <div class="content">
 
+            <div id="options-autoplay5" class="glide">
+                <div data-glide-el="track" class="glide__track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"> <img src="imaag/geodesic1.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic2.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic3.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic4.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic5.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic6.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic7.jpg"/></li>
+                        <li class="glide__slide"> <img src="imaag/geodesic8.jpg"/></li>
+                      
+                    </ul>
+                </div>
+                <figcaption>
+
+                    <span class="smll">GEODESIC - modular typeface - 2019</span>
+                </figcaption>
+
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left butt" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right butt" data-glide-dir=">">next</button>
+
+                </div>
+
+            </div> 
 
             <div id="options-autoplay" class="glide">
                 <div data-glide-el="track" class="glide__track">
@@ -207,6 +232,17 @@
 
 
             glide4.mount();
+            
+               var glide5 = new Glide('#options-autoplay5', {
+                type: 'carousel',
+                autoplay: 5000,
+                hoverpause: true,
+                keyboard:true,
+                perView: 1
+            })
+
+
+            glide5.mount();
 
         </script>
 
