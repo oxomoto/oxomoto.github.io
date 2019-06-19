@@ -122,7 +122,8 @@ img {
     height: auto;
 }
 
-.row {  display: flex;
+.row {  
+    display: flex;
     align-items: center;
     justify-content: center;
   padding: 0;
@@ -150,12 +151,12 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
     padding: 1px 7px 2px;
     cursor:pointer;
 
-
 }
+
 .work {
     padding:0.4em;
-
 }
+
 img{
  max-width: 100%;
 }
@@ -172,7 +173,7 @@ img{
 
 @media only screen and (max-width: 600px) {
     .about {width: 100%;}
-    img,#fun,.griddi img {
+    img,#fun, .lazy, .work {
 
         display: block;
         width: 100%;
