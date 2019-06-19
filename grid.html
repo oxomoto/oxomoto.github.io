@@ -8,48 +8,60 @@
 
         <meta name="description" content="oxomoto is a graphic designer based in Brussels.">
         <meta name="keywords" content="graphic design,grafische vormgeving,creative direction,photography,branding,oxomoto,graphisme">
-
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="milligram.css">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.png" sizes="48x48" type="image/png">
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
 
     </head>
 
     <body>
-        <div>
-            <input type="button" onclick="window.location=&quot;index.html&quot;" value="index">
-        </div>
+         <ul id="menu">
+                <!--    <li><img id="avi" src="favicon.png"></li> !-->
+                <li><input type="button" onclick="window.location=&quot;index.html&quot;" value="oxomoto"></li>
+                <li><input type="button" onclick="window.location=&quot;about.html&quot;" value="about"></li>
+                <li><input type="button" onclick="window.location=&quot;grid.html&quot;" value="grid"></li> 
+            </ul>
         <div class="contain">
             <p class="smll">grid display & archive of selected works</p>
             <div class="work">
                 <div class="row">
-                    <div class="griddi"> <img src="imaag/cpycpy_debate.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_counterfeit.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_face.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_fakemarket.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_film.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_debate.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_counterfeit.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_face.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_fakemarket.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_film.png"/></div>
                 </div>
 
                 <div class="row">
-                    <div class="griddi"> <img src="imaag/cpycpy_gelfutures.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_hardcopy.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_lilmiq.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_ostype.png"/></div>
-                    <div class="griddi"> <img src="imaag/cpycpy_scanit.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_gelfutures.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_hardcopy.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_lilmiq.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_ostype.png"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/cpycpy_scanit.png"/></div>
                 </div> 
 
                 <div class="row">
-                    <div class="griddi"> <img src="imaag/MANIFESTETONS.gif"/></div>
-                    <div class="griddi"><img src="imaag/softwash_releaseparty.jpg"/></div>
-                    <div class="griddi"><img src="imaag/softwash_cinema.jpg"/></div>
-                    <div class="griddi"> <img src="imaag/stream_V2_shoegaze.jpg"/></div>
-                    <div class="griddi"> <img src="imaag/spam_rose.jpg"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/MANIFESTETONS.gif"/></div>
+                    <div class="griddi"><img class="lazy"      data-src="imaag/softwash_releaseparty.jpg"/></div>
+                    <div class="griddi"><img class="lazy"      data-src="imaag/softwash_cinema.jpg"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/stream_V2_shoegaze.jpg"/></div>
+                    <div class="griddi"> <img class="lazy"      data-src="imaag/spam_rose.jpg"/></div>
 
                 </div> 
             </div>
 
         </div>
+        <script>
+            
+        var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+});
+
+        </script>
 
     </body>
 </html>
+
+
+
+
