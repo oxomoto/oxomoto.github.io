@@ -14,7 +14,26 @@
     </head>
 
     <body>
+<script type="text/javascript">
+            $(document).ready(function() {
+                $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=daftcherub&api_key=1637d8fcdc07c3a453585ecb3f713ba2&limit=2&format=json&callback=?", function(data) {
+                    var html = '';
+                    var counter = 1;
+                    $.each(data.recenttracks.track, function(i, item) {
+                        if(counter == 1) {
+                            html += '<span class=lel>_currently listening to 💿</span> <span class="last"><a class="lastfm" href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
+                        }
+                        counter++
+                    });
+                    $('.listening-to').append(html);
 
+
+
+                });
+
+
+            });
+        </script>  
 
         <div>
             <ul id="menu">
@@ -48,26 +67,7 @@
         </div>
 
 
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=daftcherub&api_key=1637d8fcdc07c3a453585ecb3f713ba2&limit=2&format=json&callback=?", function(data) {
-                    var html = '';
-                    var counter = 1;
-                    $.each(data.recenttracks.track, function(i, item) {
-                        if(counter == 1) {
-                            html += '<span class=lel>_currently listening to 💿</span> <span class="last"><a class="lastfm" href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
-                        }
-                        counter++
-                    });
-                    $('.listening-to').append(html);
-
-
-
-                });
-
-
-            });
-        </script>  
+        
 
 
     </body>
