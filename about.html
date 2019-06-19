@@ -8,25 +8,22 @@
 
         <meta name="description" content="oxomoto is a graphic designer based in Brussels.">
         <meta name="keywords" content="graphic design,grafische vormgeving,creative direction,photography,branding,oxomoto,graphisme">
-
-        <link href="https://fonts.googleapis.com/css?family=Cardo|Work+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="milligram.css">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.png" sizes="48x48" type="image/png">
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
 
     <body>
 
 
         <div>
-  <ul id="menu">
+            <ul id="menu">
                 <!--    <li><img id="avi" src="favicon.png"></li> !-->
                 <li><input type="button" onclick="window.location=&quot;index.html&quot;" value="oxomoto"></li>
                 <li><input type="button" onclick="window.location=&quot;about.html&quot;" value="about"></li>
                 <li><input type="button" onclick="window.location=&quot;grid.html&quot;" value="grid"></li> 
             </ul>
-            <p class="about">oxomoto is a creative researching the boundaries of graphic design in printed and onscreen matter, with a particular focus on contemporary culture/internet. Brussels-based. Graduated from ESA St-Luc Bruxelles, now studying for a type master's degree @ ERG</p>
+            <p class="about">oxomoto is a creative researching the boundaries of graphic design in printed and onscreen matter, with a particular focus on editorial design, posters, visual identity, type & photography. Brussels-based. Graduated from ESA St-Luc Bruxelles, now studying for a type master's degree @ ERG (Ecole de Recherche Graphique, Bruxelles).</p>
             <input type="button" onclick="window.location=&quot;mailto:oxomoto.oxomoto@gmail.com&quot;" value="SEND MAIL">
 
 
@@ -47,9 +44,30 @@
                 </li>
             </ul>
 
-
+            <div class="listening-to"><p></p></div>
         </div>
 
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=daftcherub&api_key=1637d8fcdc07c3a453585ecb3f713ba2&limit=2&format=json&callback=?", function(data) {
+                    var html = '';
+                    var counter = 1;
+                    $.each(data.recenttracks.track, function(i, item) {
+                        if(counter == 1) {
+                            html += '<span class=lel>_currently listening to 💿</span> <span class="last"><a class="lastfm" href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</span>';
+                        }
+                        counter++
+                    });
+                    $('.listening-to').append(html);
+
+
+
+                });
+
+
+            });
+        </script>  
 
 
     </body>
