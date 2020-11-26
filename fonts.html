@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oxomoto</title>
+    <meta name="description" content="oxomoto is the design practice of Louis Desmet.">
+    <meta name="keywords" content="graphic design, oxomoto, Louis Desmet, typography">
+    <meta name="author" content="oxomoto">
+    <meta http-equiv="Cache-Control" content="max-age=315360" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔗</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/fontsampler.js"></script>
+
+</head>
+<!-- 
+
+!-->
+
+
+
+<header>
+    <select id="title" name="title" onchange="location = this.value;">
+        <option value="" selected>fonts</option>
+        <option value="index.html">index</option>
+        <option value="/2019/index.html">archive</option>
+    </select>
+
+
+</header>
+
+
+<body>
+    <section>
+        <div>
+            <h1 style="font-family: sans-serif;">Unoverso Typetester</h1>
+        </div>
+
+        <div id="demo" class="playground">In exploring office architectural design and its impact on user activity, examples of the history of the workplace from ancient Egyptian, Greek and Roman palaces and administrative centers until the office of present time will be presented. Office architecture has undergone many interconnected phases and have withstood both discontinuities and inconsistencies. Influences from the past can be found in con- temporary office design. Prevailing political and social conditions as well as the development of technology may explain changes in the form and use of space. Human movement has been taken into consideration during most of the office layout design stages, mostly to the extent of minimizing physical activity to the benefit of productivity. Concepts for workplace design are still changing and the office space is becoming a layout set to induce interaction and face-to-face knowledge and information exchange.</div>
+
+
+        <div id="demov" class="playground">Test the variable axis.</div>
+    </section>
+</body>
+
+<script>
+    window.onload = function() {
+        var options = {
+            // initialText: "Hello Tester!",
+
+            // This sets the UI element’s order and groupings
+            order: ["tester", ["fontsize", "lineheight", "fontfamily"],
+                "opentype"
+            ],
+
+            // This defines UI element options that differ from the defaults
+            ui: {
+                fontsize: {
+                    init: 20,
+                    step: 1,
+                    unit: "px",
+                },
+                lineheight: true,
+                // Instead of defining the specifics of a ui element,
+                // simply setting in to true will make it
+                // get rendered in the UI with defaults
+                fontfamily: true,
+            }
+        }
+
+        var fonts = [{
+                name: "Unoverso",
+                files: [
+                    "type/unoverso-serif-webfont.woff",
+                    "type/unoverso-serif-webfont.woff2"
+                ]
+            },
+            {
+                name: "Unoverso Book",
+                files: [
+                    "type/unoverso-book-webfont.woff",
+                    "type/unoverso-book-webfont.woff2"
+                ]
+            }
+        ]
+        // new Fontsampler(document.getElementById("demo"), fonts, options).init()
+        var fs = new Fontsampler(document.getElementById("demo"), fonts, options)
+        fs.init()
+        //////////////////////
+
+        var options2 = { // This sets the UI element’s order and groupings
+                order: ["tester", "variation", ["fontsize"],
+                    "opentype"
+                ],
+
+                // This defines UI element options that differ from the defaults
+                ui: {
+                    fontsize: {
+                        init: 80,
+                        step: 1,
+                        unit: "px",
+                    },
+                    //     language: {
+                    //        "choices": ["en-gb|English", "ar-afb|Arabic"],
+                    //        "init": "en-gb"
+                    // },
+                    //      opentype: {
+                    //         "choices": ["liga", "dlig", "rlig", "calt"]
+                    // },
+                    variation: {
+                        axes: [{
+                            tag: "SERI",
+                            init: 0,
+                            min: 0,
+                            max: 100,
+                            step: 1,
+                            label: "Variable ",
+                        }]
+                    }
+                }
+            },
+
+
+            fonts2 = [{
+                name: "Unoverso",
+                files: [
+                    "type/unoversoGX.woff2"
+                ],
+                instances: [
+                    "SERI 100|Unoverso Serif",
+                    "SERI 0|Unoverso Book"
+                ],
+
+                //     features: ["liga", "dlig"],
+                //    language: "en-gb"
+            }]
+
+
+        var fs2 = new Fontsampler(document.getElementById("demov"), fonts2, options2)
+        fs2.init()
+
+
+
+
+
+        //////////
+    }
+
+</script>
+
+
+</html>

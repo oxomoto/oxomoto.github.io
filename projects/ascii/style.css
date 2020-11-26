@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /** font-size: 12px; **/
+    background: ghostwhite;
+    color: #2d2a2a;
+    padding: 1em;
+}
+
+pre {
+    background: white;
+    border-radius: 10px;
+    padding: 1em;
+    border: 1px dotted black;
+    overflow: scroll;
+}
+
+a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.ascii {
+    padding-top: 1.2em;
+}
