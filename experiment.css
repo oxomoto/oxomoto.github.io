@@ -1,0 +1,103 @@
+*,
+    {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-size: 12px;
+    background: ghostwhite;
+    color: #2d2a2a;
+    padding: 1em;
+}
+
+
+
+header select,
+span {
+    font-weight: 400;
+    width: 96vw;
+    font-family: sans-serif;
+    margin-bottom: 0.2em;
+}
+
+
+
+section p {
+    font-size: 1.8rem;
+    line-height: 0.98em;
+    font-weight: 600;
+    padding: 0.2em;
+    font-family: serif;
+}
+
+summary {
+    width: auto;
+    font-weight: 600;
+    border: 2px dotted blue;
+    border-radius: 0.3rem;
+    line-height: 0.2em;
+    font-size: 1.2em;
+    padding: 0.8em 1em 0.6em 1em;
+}
+
+.fucktest {
+    border: 2px dotted blue;
+    height: 2em;
+    font-size: 1.2em;
+    padding: 0.1em;
+}
+
+summary:hover {
+    background: yellow;
+}
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+div {
+    padding: 0.4em 0 0 0.4em;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/** //////////////////////  grid structure **/
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.333rem;
+
+}
+
+.grid-container div {
+    width: 100%;
+    background: lightyellow;
+    padding: 0.4rem;
+    border-top: 2px dotted blue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.playground {
+    background: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+/** //////////////////////  mobile **/
