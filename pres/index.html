@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Basic Web Presentation" />
+    <meta property="og:description" content="A one file presentation template." />
+    <title>Basic Web Presentation</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, caption, sans-serif;
+        }
+
+        main {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        section {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+        }
+
+        section.hidden {
+            display: none;
+        }
+
+        section div.text {
+            margin: 20px;
+            max-width: 450px;
+        }
+
+        section div.visual {
+            margin: 20px;
+            max-width: 450px;
+            max-height: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            align-self: center;
+            max-height: 90vh;
+            max-width: 90vw;
+        }
+
+    </style>
+</head>
+
+<body>
+    <script>
+        window.onload = () => {
+            let slides = Array.from(document.querySelectorAll('section'))
+
+            for (i = 1; i < slides.length; i++) {
+                let slide = slides[i]
+                hideSlide(slide)
+            }
+
+            document.addEventListener('keydown', () => {
+                if (event.keyCode === 39) moveForward()
+                else if (event.keyCode === 37) moveBackward()
+                else if (event.keyCode === 32) moveForward()
+            })
+
+            function moveForward() {
+                let currentSlide = slides.find(slide => !slide.classList.contains('hidden'))
+                let nextSlide = slides[slides.indexOf(currentSlide) + 1]
+                if (nextSlide) {
+                    console.log('moving forward')
+                    hideSlide(currentSlide)
+                    showSlide(nextSlide)
+                } else {
+                    console.log('reached end')
+                }
+            }
+
+            function moveBackward() {
+                let currentSlide = slides.find(slide => !slide.classList.contains('hidden'))
+                let previousSlide = slides[slides.indexOf(currentSlide) - 1]
+                if (previousSlide) {
+                    console.log('moving backward')
+                    hideSlide(currentSlide)
+                    showSlide(previousSlide)
+                } else {
+                    console.log('reached start')
+                }
+            }
+
+            function showSlide(slide) {
+                if (slide.classList.contains('hidden')) {
+                    slide.classList.remove('hidden')
+                }
+            }
+
+            function hideSlide(slide) {
+                if (!slide.classList.contains('hidden')) {
+                    slide.classList.add('hidden')
+                }
+            }
+        }
+
+    </script>
+    <main>
+        <section>
+             
+            <div class="text">
+                <h2>Actualité des Arts<br> <em>Urgency Reader</em></h2>
+                
+            </div>
+            <img src="src/urgency.png"/>
+          
+        </section>
+
+
+           
+        <section>
+            <div class="text">
+           <h4><a href="https://queer.archive.work/publications/reader1/index.html">https://queer.archive.work/publications/reader1/index.html</a></h4>
+<p><em>Urgency Reader</em> est un "lecteur de textes", une collection de textes assemblés dans un ouvrage. Ou plus simplement un receuil.<br> <br> Ce reader est assemblé par <em><a href="https://soulellis.com/">Paul Soulellis</a></em>, designer et artiste Américain qui passe son temps à donner cours, écrire et s'intéresse à des modes d'édition experimentales. Il est aussi le directeur de <em><a href="https://queer.archive.work/about/index.html">Queer Archive Work </a></em>, un espace de lecture et maison d'édition à but non-lucratif.</p>
+     </div>
+        </section>
+
+       <!-- <section style="background: black;"> !-->
+         <section>
+            <img src="src/topic.png" />
+        </section>
+        <section>
+ <p class="text" style="padding:10px;">Tout type de contenu est accepté, ébauche en cours, terminé, ancien ou fait spécialement pour l'édition. </p>        </section>
+        <section>
+            <img src="https://queer.archive.work/publications/reader1/8.png" />
+            <p class="text" style="padding:10px;">Plus de 80 contributeurs répondent à l'appel en moins de 2 semaines, une édition expéditive. </p>  
+        </section>
+        <section>
+            <img src="https://queer.archive.work/publications/reader1/2.png" />
+<p class="text" style="padding:10px;">Vendu à un prix démocratique, les versions scannées sont librement téléchargeable en ligne (haute définition). </p>  
+        </section>
+        <section>
+            <img src="https://queer.archive.work/publications/reader1/3.png" />
+            <p class="text" style="padding:10px;">La position des textes des contributeurs est générée aléatoirement ce qui crée des alignements surpenants<br>
+             <em>“can be read as chance-generated collages, and as spontaneous pieces of printed performance art.”</em></p>
+
+        </section>
+
+        <section>
+            <img src="https://soulellis.com/work/urgencyreader/reader21.png">
+            <p class="text" style="padding:10px;">La seule contrainte étant le format d'une page US et le médium <em>écrit</em>. Le reader en entier était restreint à 252 pages, capacité maximale de l'agrafeuse servant à relier.</p>
+        </section> 
+        <section>
+            <div class="text">
+                <p>Le nom Urgency vient du fait qu'il est créé rapidement, dans <em>l'urgence</em> mais aussi car il est rempli de contenu politique et activiste</p>
+            </div>
+        </section>
+<section>
+        <div style="display:block;">
+            <img src="https://soulellis.com/work/urgencyreader/reader20.png">
+            <p class="text" style="padding:10px;">Imprimé en riso, tout DIY.</p></div>
+        </section> 
+
+
+ <section>
+    <div style="display:block;">
+            <img src="https://pictures.abebooks.com/inventory/19596473554.jpg">
+            <p class="text" style="padding:10px;">Inspiré de Omnibus News 1, édition Avant-Garde Allemande de 1969.</p></div>
+        </section> 
+
+
+ <section>
+    <div style="display:block;">
+            <img src="src/omnibus.png">
+            <p class="text" style="padding:10px;">Cover démontrant un violent crash entre un bus et train.</p></div>
+        </section> 
+
+<section>
+            <img src="src/assembling.jpg"/>
+        </section>
+        <section>
+            <img src="src/assem1.jpg"/>
+        </section>
+        <section>
+            <img src="src/assem2.jpg"/>
+        </section>
+   <section>
+            <img src="src/assem3.jpg"/>
+        </section>
+   <section>
+            <img src="src/assem4.jpg"/>
+        </section>
+
+
+
+         <section>
+            <img src="https://www.librarystack.org/wp-content/uploads/2020/04/UR2-35-520x673.jpg"/>
+ <div class="text">
+                <p>Il renouvelle l'expérience avec Urgency 2, l'édition est réalisé après seulement 10 jour de demandes de contributions.<br><br><br>
+
+                Le reader est ancré dans l'idée de documenter collectivement les impacts du covid–19 et à la fois d'apporter un secours aux artistes de façon créative et aussi monétaire. </p>
+            </div>
+        </section>
+
+         <section>
+ <div class="text">
+                <h2> 
+Comment l'édition, en tant que pratique artistique, peut-elle incarner un soutien communautaire ?
+</h2>
+                
+            </div>
+ </section>
+
+        <section>
+            <img src="https://d2w9rnfcy7mm78.cloudfront.net/6841501/original_76ce062d449afb2832ef32cd53670f66.jpg"/>
+        </section>
+
+<section>
+            <img src="src/urg1.png"/>
+        </section>
+        <section>
+            <img src="src/urg2.png"/>
+        </section>
+        <section>
+            <img src="src/urg3.png"/>
+        </section>
+<section>
+    <div style="display:block;">
+            <img src="https://queer.archive.work/3/QAW3_7.jpg"/>
+             <p style="display:block;">QUEER.ARCHIVE.WORK #3 installation at NY Art Book Fair, MoMA PS1 (2019)</p></div>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
