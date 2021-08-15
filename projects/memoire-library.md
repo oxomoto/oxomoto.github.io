@@ -121,7 +121,7 @@ Over time a shift happened from private libraries to public.Through deaths, batt
 Although imagined by Julius Caesar, the first public library in Rome came to fruition thanks to the collection of Asinius Pollio in 39 BC. A bit later, Emperor Augustus joined in and made his vast Imperial collection available to the public which gained him wide renown and political support. It is not sure who exactly had access to the public library but historians speculate on a wide socio-economic range seeing as to where the libraries where located in Ancient Rome. [^]
 
 #### `
-
+![Roman bath-house with libraries in B and L](https://d2w9rnfcy7mm78.cloudfront.net/12848579/original_767601ffcca00b7bc723aaf1fb78ccff.png?1629029949?bc=0)
 Another Roman concept was the creation of public bath-houses with attached reading libraries. It is envisaged that bath-house libraries were used for entertainment purposes and more serious scholarly work happened at the various other public libraries. The bath-house libraries are also thought as having had a much wider audience as the bath-house complex was a popular activity intended for a large public. A public that comprised of people from a multitude of different ranks and social statute.
 The Roman public library projects were made partly possible due to flourishing book collecting culture.
 
@@ -161,6 +161,13 @@ World Urban Forum, Abu Dhabi February 2020
 
 In a recent report from the World Urban Forum libraries were declared as basic cultural necessities,**
 
+### Artist-run Reading spaces
+
+The library has also been reinvented with a multitude of artist-run reading spaces. One of such is Wendy’s Subway, it is "an accessible, creative space for everyone". The Wendy’s Subway space maintains a library with over 3000 books, the library collection is freely consultable on-site as it is a non-circulating library. 
+
+> Wendy’s Subway is dedicated to encouraging creative, critical, and discursive engagement with arts and literature, with the belief that equitable access to reading and collaborative forms of knowledge-production are catalysts for social transformation. 
+
+[http://www.wendyssubway.com/]()
 
 ### Temporary Library – Teaching Design
 
@@ -176,6 +183,9 @@ Temporary Library is an installation project by the Teaching Design research pro
 The Temporary Library was activated in the A-Z exhibition space that promotes graphic design projects that explores the unconventional and goes beyond the boundaries. The library served as tool to facilitate conversations around the topics of intersectional feminism and decolonisation. The aim being to change design education through conversational formats.
 
 The books of the Temporary Library were provided by local libraries, bookshops and people willing to lend their book for the event. The idea being that the materials of the library are influenced by the people interacting with it. The network of people interacting with the library, change the basis of the library and the context of it. This shift due to participative engagement permits the library to be a different one every time, to propose a different selection and viewpoints.
+
+
+**(((Teaching Design, the two-week long format CONVERSATIONS provides access to literature in a physical space as a framework to come together and connect with like-minded design educators – such as ourselves – and everybody interested in the field. Let’s share our experiences, doubts, questions, knowledge, concepts, methods and references to transform current structures!)))
 
 The library located in the A-Z gallery radiates the aesthetics of a contemporary exhibition. A bay window facing the streets gives sight the the exhibition space, a long corridor splinter white walls emphasised by the bright yellow floors. A few shelves occupy the space with the centerpiece being a circled pink bench. The library is as much part of the exhibition as the exhibition while using contemporary museum codes. Workshops were also organised by the space while using the circled bench to facilitate exchange.
 
@@ -268,6 +278,11 @@ The project Public Library was initiated with the counteraction in mind. To help
 
 > “Google can bring you back 100,000 answers,” as the writer Neil Gaiman once said. “A librarian can bring you back the right one.”
 
+
+> Collaboration has also become key to the way we conceive associative indexing on today’s version of the Internet
+> https://www.are.na/blog/towards-a-library-without-walls
+
+Are.na platform community sourced collection and indexing
 
 
 By digitising the book, you're erasing part of the books identity.
@@ -490,3 +505,5 @@ I hope it was a pleasure to read, otherwise make it a pleasure to burn.
 
 
 [https://www.memoryoftheworld.org/blog/2014/10/27/public_library_an_essay/](https://www.memoryoftheworld.org/blog/2014/10/27/public_library_an_essay/)
+
+[https://teaching-design.net/participate](https://teaching-design.net/participate)
