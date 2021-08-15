@@ -49,7 +49,7 @@ The book as an object has properties that can't be translated to the digital sph
 - The illustrations 
 - And the subject matter. 
 
-All what makes a book a book is interesting to me. A book is an artefact on its own, to me its as much an object that can be appraised for its beauty. As a tool for its content. Or another type of tool for reference in my graphic design work and typesetting. The book has a cultural value that gets lost when uploaded to the net.
+All what makes a book a book is interesting to me. A book is an artefact on its own, an artefact with artistic merit, one that can be appreciated for its beauty and the artistry in its conception. Simply as a consumable, as a book is meant to be, a tool for its content. Lastly another type of tool for me which is as reference in my graphic design work and typesetting. I'm inspired by the odd telephone book, the 1970's Ford car manual or a small Hachette paperback. The book has a cultural value that gets lost when uploaded to the net, on the net it is back to be purely content. A book as consumable.
 
 
 #### `
@@ -161,12 +161,20 @@ World Urban Forum, Abu Dhabi February 2020
 
 In a recent report from the World Urban Forum libraries were declared as basic cultural necessities,**
 
+### BIBLIOTHÈQUE À BORDS PERDUS
+
+The "Bibliothèque à bords perdus" is a project carried out by CIVA at the KANAL museum in Bruxelles in anticipation of the new library, it aims to question the role of the library. To start a reflexion on the library as a public space and how these findings can nourish the actual creation of the permanent library at KANAL.
+They advance that the library in these uncertain times can not be considered as a "temple of knowledge" that gives all the answers. They as well see it as a "third space", a living space built around books but where exchange and activities are primordial. To propose a true pluralism of choice, the library is  made up of books selected by the public.   Individuals from different professions help constitute the collection of the library, the general public is also invited to contributed. The contribution takes place thanks to a system of donating, exchanging and adding, this process together with classification makes the library an ever growing and changing organism.
+How can the library adapt to the changing perception of information processing induced by the usage of internet? Fragmented reading, hyperlink culture and an overflow of content are new ways of processing information and how can the library fit in to this?
+[](https://www.civa.brussels/en/exhibitions-events/bibliotheque-bords-perdus)
+
 ### Artist-run Reading spaces
 
 The library has also been reinvented with a multitude of artist-run reading spaces. One of such is Wendy’s Subway, it is "an accessible, creative space for everyone". The Wendy’s Subway space maintains a library with over 3000 books, the library collection is freely consultable on-site as it is a non-circulating library. 
 
 > Wendy’s Subway is dedicated to encouraging creative, critical, and discursive engagement with arts and literature, with the belief that equitable access to reading and collaborative forms of knowledge-production are catalysts for social transformation. 
 
+The space works as a public library but wants to offer more than that. "Featured shelf" shows off a curated collection of books selected by their members.
 [http://www.wendyssubway.com/]()
 
 ### Temporary Library – Teaching Design
@@ -189,6 +197,8 @@ The books of the Temporary Library were provided by local libraries, bookshops a
 
 The library located in the A-Z gallery radiates the aesthetics of a contemporary exhibition. A bay window facing the streets gives sight the the exhibition space, a long corridor splinter white walls emphasised by the bright yellow floors. A few shelves occupy the space with the centerpiece being a circled pink bench. The library is as much part of the exhibition as the exhibition while using contemporary museum codes. Workshops were also organised by the space while using the circled bench to facilitate exchange.
 
+![The Bibliophiles, 1879, by Luis Jimenez y Aranda, Private Collection. Photo by Christie’s. Bridgeman Images](https://omicron.aeon.co/images/ad1785c8-aabf-403d-a610-189602ed1bed/idea_essay-original-ch-987332.jpg)
+
 ## 5. Collectors, Collecting & Collections? On a course of amateur librarianship.
 
 
@@ -199,6 +209,37 @@ The library located in the A-Z gallery radiates the aesthetics of a contemporary
 This definition above from the Cambridge dictionary is a succinct description that lacks in subtlety and background to explain the act(or) of collecting.
 Collectors are foremost passionate people that get involved in the intricacies of their subject matter. 
 
+> The world of book lovers is broken into two opposing and irreconcilable groups. The first, and much the largest, is made up of those who see books as consumables. The second, less common, includes those who see books as beautiful objects.
+> 
+> We will discuss book consumers first, and then dismiss them, for they need not concern us further. For these people, a book is a medium that carries the author’s content—and that is all. When they read, they use the copy of the book in any way they please. When they are finished, they set it aside or discard it. These are the people who dog-ear corners, write shopping lists on endpapers, make marginal notes in ink, underline the text. For them, books are disposable items, intended to be used and then thrown away. The physical book is nothing more to them than a reader’s fast food wrapper.
+> 
+(...)
+
+> If you are a book consumer, you need not read any further. You will never be a book collector. We have found from experience that if you do not understand the difference immediately, you never will.
+> 
+
+> 
+> Those of us in the second group add another dimension, an aesthetic one, to our appreciation of books. We see books as physical objects of beauty and romance. While many of us do not necessarily define ourselves as book collectors, we love the look and feel of our books. Even if some of us do not understand first edition collecting, we have a shelf of treasured books, or even a library full of them.
+> 
+> We tend to take care of our books in the same way we care for the other valuable objects we own, like paintings or posters. We see our collections as extensions of our interests, perhaps as a record of our intellectual and artistic experiences. Something about having a book on the shelf gives pleasure; owning books enriches our lives.
+> 
+> Since collectors value books as beautiful objects, the books’ condition is important. A lovely copy is more appealing than one that has been used and abused. One of our favorite book collectors says that she can read any book from cover to cover without leaving any evidence of having done so. While there are not many of us who can do this, all collectors take care with their books. Beginners may write their names in their books, but they would never purposely deface them, any more than they would carve graffiti into a sculpture or draw a moustache on a face in a painting.
+> 
+(...)
+> 
+> The underlying reason to collect books lies in the duality of the experience. Not only do collectors take pleasure from the intellectual content of their books, but they also enjoy the process of assembling their collections. At its most fundamental level, book collecting is an extension of the hunting-and-gathering instinct that has fired mankind’s progress from prehistory. The thrill involved in finding a beautiful first edition is palpable, even for those of us who have been involved in the chase for many years.
+> 
+> Only yesterday, we had a conversation with a veteran bookseller who came upon a gloriously fresh first edition copy in dust jacket of Zora Neale Hurston’s novel, Their Eyes Were Watching God (1937). Even though he had no economic interest in it, seeing and evaluating the book gave him pleasure. Finding a beautiful copy of a treasured book is a rewarding experience. Owning one gives continuing delight.
+> 
+> There are many secondary reasons to collect, including economic ones. Many first edition books appreciate in value over time. The laws of supply and demand dictate that. Since books are fragile, the number of available copies in the marketplace tends to diminish over the years. The chances are that a collector’s first edition library will become an increasingly valuable asset. There is a marketplace for books, and even though it has changed radically of the course of the last decade, book collecting is an expanding field that is likely to remain so.
+> 
+> Why collect books? Collect them because they are beautiful. Collect them because they are valuable. Most important of all, collect them because you love them.
+(...)
+
+> http://web.archive.org/web/20110827090132/http://www.firsts.com/FundTwo.html
+
+Firsts is a book collector's publication running that has been running for over 30 years.
+
 Their collection is dear to them, and they assemble it with care. The items that make up a collection are relational, they have a vision on how they imagine their collection to be. They are the curators of their own museum. Along the way collectors become part of the books history, 
 they are part of the provenance of the book. They can explain and justify its origins, this is mostly the case for rare books and not applicable to "common" ones. The collectors used to mark their books with an ex-libris (bookplate) to indicate the ownership of the books. Ex-libris, Latin for "from the books of", references also the provenance of the book. When a book would pass hand from one collector to the other, the new owner would mark the book with their own ex-libris. As such a record of ownership was kept on the front end-pages of the book.
 
@@ -207,7 +248,7 @@ A collector is much like a hunter, constantly on the lookout and sniffing for in
 
 It would be valuable if collectors start identifying themselves as amateur librarians, sharing their wealth of knowledge and collections. It's grievous to think that many collectors forget to establish a procedure concerning their collection incase of their passing. A collector as amateur librarian would make them an active member of the community. An occasion for them to disseminate their acquired insights and make their collections known. Known as to provoke involvement and interest so the collection might one day live on.
 
-#### `
+The value is in the eye of the beholder
 
 A book collector can oftentimes possess a number of other printed ephemera, included or related to their books. To me as a graphic designer, these items are of particular interest. They are printed materials from a bygone era that aren't often preserved but still serve as exceptional reference items and inspiration. They are also part of graphic design history, I hope someday someone decides to preserve one of my random flyers. Examples of printed ephemera:
 - invitation letters
@@ -215,11 +256,14 @@ A book collector can oftentimes possess a number of other printed ephemera, incl
 - stamps
 - leaflets
 - ex-libris
+- catalogs
+- exhibition flyers
+- greeting cards
 - cards
 - pictures
 - bookmarks
 - stickers
-- business card
+- business cards
 - ...
 
 
@@ -296,7 +340,19 @@ curated information is good
 
 The internet has disrupted the monopoly of the library in being the primary source of access to information.
 
-For many authors and even in the publics eye, the publishing of a printed document marks a symbolic moment in a writers career. It's considered a higher accomplishment than publishing an article on e-book online. The prestige of the printed volume is still present.
+
+
+
+A 2015 American study found out that a majority of the students (57, 4%)preferred a printed book to the digital version. The main reasons being that they simply preferred printed material of digital followed by it being more convenient to them. [Another report ](https://hechingerreport.org/evidence-increases-for-reading-on-paper-instead-of-screens/) synthesising multiple reports done on the subject came to the conclusion that students reading on paper retained more information than on screen.
+
+[A more global research from 2017 on reading preferences](https://www.twosides.info/UK/print-and-paper-packs-a-punch-in-a-digital-world/) showed that 72% of respondents preferred reading printed material in comparison with 9% going for digital.
+
+https://repository.usfca.edu/cgi/viewcontent.cgi?article=1020&context=hosp
+
+https://www.weforum.org/agenda/2021/04/printed-books-vs-e-books-which-is-the-most-popular/
+
+For many authors and even in the publics eye, the publishing of a printed document marks a symbolic moment in a writers career. It's considered a higher accomplishment than publishing an article on e-book online. Making it through the gatekeeping process of publishing houses is for most a real accomplishment and a boost for to their self-worth.[The prestige of the printed volume](https://medium.com/@17007632/the-prestige-of-paper-6c610d56e1ae) is still present.
+https://www.thecreativepenn.com/self-publishing-vs-traditional/
 
 Another interesting factor is that book collectors aren't interested in a flat pdf file, they are interested in the book as object. Book collectors value the books for their printed form, 
 All artbooks still come out as printed matter, because the book adds value to the subject matter.
@@ -373,7 +429,7 @@ On the one hand there is a mass production of mainstream books being chugged out
 
 As a result of this, small imprints only receive limited distribution in each country or sometimes don't even leave the country of origin. The only place to encounter the book is at a niche bookstore before it gets sold out. After that the book solely lives on in the collectors library, public libraries have no interest or budget for niche publications.
 
-Buying is ofcourse an option but the constant addition of new fascinating books makes this endeavour an unrealistic prospect.
+Buying is of course an option but the constant addition of new fascinating books makes this endeavour an unrealistic prospect.
 
 Even public libraries and local bookstores aren't capable to acquire the vast proposal of various new books. Books that range from any type of subject to language to edition size. 
 
