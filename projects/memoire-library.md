@@ -166,9 +166,18 @@ In a recent report from the World Urban Forum libraries were declared as basic c
 
 ![Teaching Design – Temporary library](https://freight.cargo.site/w/2000/q/75/i/06b74a0f4757db76cb503abfa6bc1176ff8165ddc74fe7d0027b8d5371c73886/200201_AbisZ_001_bearb.jpg)
 
-Temporary Library is an installation project by the Teaching Design research project. Initiated in 2019, Teaching Design is a collaborative critical design practice started by Lisa Baumgarten and Anja Neidhardt that focuses on intersectional feminism and decolonial perspectives. Through their practice they are collecting and sharing books to educate 
+Temporary Library is an installation project by the Teaching Design research project. Initiated in 2019, Teaching Design is a collaborative critical design practice started by Lisa Baumgarten and Anja Neidhardt that focuses on intersectional feminism and decolonial perspectives. Through their practice they are collecting and sharing books to offer different perspectives on contemporary subjects.
 
-Teaching Design is a collaborative research project maintained and facilitated by a changing constellation of people. It was initiated in September 2019 by Lisa Baumgarten and Anja Neidhardt (who has left the project to pursue her PhD) and started as a participatory bibliography focusing on collecting and sharing literature from intersectional feminist and decolonial perspectives.
+
+> We created a space where people could come together, browse through the physical library, sit down for a tea, share experiences, stage public readings and offer workshops on design education. In this format, the focus was on conversations, building networks, collective reflection and providing a space for perspectives that are not heard enough.
+> [https://teaching-design.net/participate](https://teaching-design.net/participate)
+
+
+The Temporary Library was activated in the A-Z exhibition space that promotes graphic design projects that explores the unconventional and goes beyond the boundaries. The library served as tool to facilitate conversations around the topics of intersectional feminism and decolonisation. The aim being to change design education through conversational formats.
+
+The books of the Temporary Library were provided by local libraries, bookshops and people willing to lend their book for the event. The idea being that the materials of the library are influenced by the people interacting with it. The network of people interacting with the library, change the basis of the library and the context of it. This shift due to participative engagement permits the library to be a different one every time, to propose a different selection and viewpoints.
+
+The library located in the A-Z gallery radiates the aesthetics of a contemporary exhibition. A bay window facing the streets gives sight the the exhibition space, a long corridor splinter white walls emphasised by the bright yellow floors. A few shelves occupy the space with the centerpiece being a circled pink bench. The library is as much part of the exhibition as the exhibition while using contemporary museum codes. Workshops were also organised by the space while using the circled bench to facilitate exchange.
 
 ## 5. Collectors, Collecting & Collections? On a course of amateur librarianship.
 
