@@ -1,2 +1,7 @@
 # oxomoto.github.io
-portfolio.test
+Todo
+
+    - Use a SSG
+    - Remove unused code
+    - Archive old projects
+    - Clean javascript
